@@ -480,7 +480,7 @@ footer p{
 }
 
 /* Dark mode styles */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     body {
         background-color: #1a1a1a;
         color: #e0e0e0;
@@ -544,6 +544,143 @@ footer p{
         color: #888888;
     }
 
+} */ 
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1a1a1a;
+        color: #e0e0e0;
+    }
+
+    h1, h2 {
+        color: #ffffff;
+    }
+
+    a[href="#main"] {
+        background-color: #333333;
+        color: #ffffff;
+    }
+
+    .header-content {
+        background-color: #2a2a2a;
+    }
+
+    .search-container {
+        background-color: #333333;
+    }
+
+    #search-input {
+        background-color: #333333;
+        color: #e0e0e0;
+    }
+
+    .search-button {
+        color: #e0e0e0;
+    }
+
+    nav {
+        background-color: #333333;
+    }
+
+    .nav-tabs a {
+        color: #cccccc;
+    }
+
+    .nav-tabs .active a {
+        color: #ffffff;
+        background-color: #444444;
+    }
+
+    .perf {
+        background-color: #2a2a2a;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    .perf-content {
+        color: #e0e0e0;
+    }
+
+    .perf-brand {
+        color: #aaaaaa;
+    }
+
+    .perf-review a {
+        color: #66ccff;
+    }
+
+    .fa-star {
+        color: #ffd700;
+    }
+
+    .wishlist, .compare, .remove-wishlist, .edit-mode, .cancel-mode {
+        background-color: #3a3a3a;
+        border: 1px solid #555555;
+        color: #e0e0e0;
+    }
+
+    .wishlist:hover, .compare:hover, .remove-wishlist:hover, .edit-mode:hover, .cancel-mode:hover {
+        background-color: #444444;
+    }
+
+    .fa-heart, .fa-right-left {
+        color: #e0e0e0;
+    }
+
+    #myBtn {
+        background-color: #555555;
+        color: #ffffff;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+    }
+
+    #myBtn:hover {
+        background-color: #666666;
+    }
+
+    footer p {
+        color: #888888;
+    }
+
+    .comparison-section {
+        background-color: #2a2a2a;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    .comparison-item {
+        background-color: #333333;
+    }
+
+    .empty-text {
+        color: #aaaaaa;
+    }
+
+    #add-new-perfume-form {
+        background-color: #2a2a2a;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    #add-new-perfume-form input {
+        background-color: #333333;
+        color: #e0e0e0;
+        border: 1px solid #555555;
+    }
+
+    #add-new-perfume-button {
+        background-color: #4CAF50;
+        color: #ffffff;
+    }
+
+    #add-new-perfume-button:hover {
+        background-color: #45a049;
+    }
+
+    .delete-button {
+        background-color: #FF4500;
+        color: #ffffff;
+    }
+
+    .delete-button:hover {
+        background-color: #FF0000;
+    }
 }
 
 
