@@ -480,72 +480,6 @@ footer p{
 }
 
 /* Dark mode styles */
-/* @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #1a1a1a;
-        color: #e0e0e0;
-    }
-
-    h1 {
-        color: #ffffff;
-    }
-
-    nav {
-        background-color: #333333;
-        color: #cccccc;
-    }
-
-    .nav-tabs a {
-        color: #cccccc;
-        background-color: transparent;
-    }
-
-    .nav-tabs .active a {
-        color: #ffffff;
-        background-color: #444444;
-    }
-
-    .perf {
-        background-color: #2a2a2a;
-        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7);
-    }
-
-    .perf-content {
-        color: #e0e0e0;
-    }
-
-    .perf-brand {
-        color: #aaaaaa;
-    }
-
-    .perf-review a {
-        color: #66ccff;
-    }
-
-    .fa-star {
-        color: #ffd700;
-    }
-
-    .wishlist, .compare {
-        background-color: #3a3a3a;
-        border: 1px solid #555555;
-        color: #e0e0e0;
-    }
-
-    .wishlist:hover, .compare:hover {
-        background-color: #444444;
-    }
-
-    .fa-heart, .fa-right-left {
-        color: #e0e0e0;
-    }
-
-    footer p {
-        color: #888888;
-    }
-
-} */ 
-/* Dark mode styles */
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #1a1a1a;
@@ -559,10 +493,6 @@ footer p{
     a[href="#main"] {
         background-color: #333333;
         color: #ffffff;
-    }
-
-    .header-content {
-        background-color: #2a2a2a;
     }
 
     .search-container {
