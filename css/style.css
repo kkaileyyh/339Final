@@ -241,7 +241,7 @@ footer p{
 
 .edit-mode, .cancel-mode {
     display: block;
-    margin: 20px auto; /* Center the buttons */
+    margin: 20px auto; 
     padding: 0.5em 1.0em;
     cursor: pointer;
     background-color: white;
@@ -252,8 +252,8 @@ footer p{
     font-weight: 400;
     font-style: normal;
     font-size: 0.7em;
-    width: 80%; /* Make buttons wider on small screens */
-    max-width: 200px; /* Limit width on larger screens */
+    width: 80%; 
+    /* max-width: 200px;  */
 }
 
 /* Add styles for the buttons container */
@@ -340,7 +340,7 @@ footer p{
 
 .comparison-item img {
     width: 100%;
-    max-width: 200px; 
+    /* max-width: 200px;  */
     height: auto;
     object-fit: cover;
     border-radius: 5px;
@@ -369,7 +369,7 @@ footer p{
   /* Large Screen View */
 @media only screen and (min-width: 600px) {
     .header-content {
-        max-width: 1200px;
+        /* max-width: 1200px; */
         margin: 2em auto;
         padding: 0 1rem;
     }
@@ -412,7 +412,7 @@ footer p{
 
     nav {
         width: 100%;
-        max-width: 600px;
+        /* max-width: 600px; */
         margin: 1em 1em;
     }
     
