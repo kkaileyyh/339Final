@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b3bfab5044.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/wishlist.js" defer></script>
+    <title>Wishlist</title>
+</head>
+<body>  
+    <a href = "#main">skip to main content</a>
+    <!-- Back to top button -->
+    <button onclick="topFunction()" id="myBtn" title="Back to top">Back to top</button>
+  
+    <header class="header-content">
+        <h1>My Wishlist</h1>
+        <button class="menu-button" aria-label="Menu">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </button>
+        <div class="search-container">
+            <input type="text" placeholder="Search..." id="search-input">
+            <button class="search-button" aria-label="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Navigation bar -->
+    <nav>
+        <ul class="nav-tabs">
+            <li><a href="index.html">My Collection</a></li>
+            <li class="active"><a href="#">Wishlist</a></li>
+            <li><a href="#">Tried</a></li>
+        </ul>
+    </nav>
+    
+    <main id="main">
+        <!-- Wishlist container -->
+        <div id="wishlist-container" class="perf-grid">
+            <!-- Perfumes added to the wishlist will be displayed here -->
+        </div>
+    </main>
+    
+    <footer>
+        <p>Created by Kailey Hwang for UMich SI 339 Final Project</p>
+    </footer>
+</body>
+</html>

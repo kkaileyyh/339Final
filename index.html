@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b3bfab5044.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/main.js" defer></script>
+    <title>My Perfume Collection</title>
+</head>
+<body>
+  <a href = "#main">skip to main content</a>
+  <!-- Back to top button -->
+  <button onclick="topFunction()" id="myBtn" title="Back to top">Back to top</button>
+
+    <header class="header-content">
+        <h1>My Perfume Collection</h1>
+        <button class="menu-button" aria-label="Menu">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </button>
+        <div class="search-container">
+          <input type="text" placeholder="Search..." id="search-input">
+          <button class="search-button" aria-label="Search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+      </div>
+    </header>
+
+<!-- Navigation bar -->
+    <nav>
+        <ul class="nav-tabs">
+            <li class="active"><a href="index.html">My Collection</a></li>
+            <li><a href="wishlist.html">Wishlist</a></li>
+            <li><a href="#">Tried</a></li>
+        </ul>
+    </nav>
+
+<main id="main">
+  
+<!-- Perfume section -->
+  <div class="perf-grid">
+    <section class="perf" data-id="perfume1">
+        <div class="perf-content">
+          <p class="perf-title">Lime Basil & Mandarine Cologne</p>
+          <p class="perf-brand">Jo Malone</p>
+          <p class="perf-price">$165</p>
+        </div>
+        <div class="perf-image-container">
+          <img src="/images/lime-basil-mandarine.jpg" alt="Lime Basil & Mandarine Cologne" class="perf-image">
+        </div>
+        <div class="perf-content">
+          <p class="perf-scentFam">Scent Family: Citrus</p>
+          <p class="perf-review">
+            <i class="fa-solid fa-star"></i> 4.7
+            <a href="https://www.jomalone.com/product/25946/10101/colognes/lime-basil-mandarin-cologne?size=100ml&gad_source=1&gclid=CjwKCAiA3ZC6BhBaEiwAeqfvyq7mP-08Z0hK_TTSbj9sTU5v2Xa-ZsyTIFa0OgbUBiYSuspVn-GBhxoC-lkQAvD_BwE&gclsrc=aw.ds">
+              (393 reviews)
+            </a>
+          </p>
+        </div>
+        <div class="perf-button">
+            <button class="wishlist"><i class="fa-regular fa-heart"></i> Wishlist</button>
+            <button class="compare"><i class="fa-solid fa-right-left"></i></i> Compare</button>
+        </div>
+      </section>
+
+      <section class="perf" data-id="perfume2">
+        <div class="perf-content">
+          <p class="perf-title">Replica Lazy Sunday Morning</p>
+          <p class="perf-brand">Maison Margiela</p>
+          <p class="perf-price">$165</p>
+        </div>
+        <div class="perf-image-container">
+          <img src="/images/lazy-sunday-morning.jpg" alt="Replica Lazy Sunday Morning" class="perf-image">
+        </div>
+        <div class="perf-content">
+          <p class="perf-scentFam">Scent Family: Fresh & Floral</p>
+          <p class="perf-review">
+            <i class="fa-solid fa-star"></i> 4.5
+            <a href="https://www.maisonmargiela-fragrances.us/fragrances/replica/replica-lazy-sunday-morning/MM009.html?srsltid=AfmBOopixL3cuB8AYIZePikO-NtA_R1SoveTrVeIU_EAggaMR_vCRqpE">
+              (271 reviews)
+            </a>
+          </p>
+        </div>
+        <div class="perf-button">
+            <button class="wishlist"><i class="fa-regular fa-heart"></i> Wishlist</button>
+            <button class="compare"><i class="fa-solid fa-right-left"></i></i> Compare</button>
+        </div>
+      </section>
+
+      <section class="perf" data-id="perfume3">
+        <div class="perf-content">
+          <p class="perf-title">Replica Springtime In a Park</p>
+          <p class="perf-brand">Maison Margiela</p>
+          <p class="perf-price">$165</p>
+        </div>
+        <div class="perf-image-container">
+          <img src="/images/springtime-park.jpg" alt="Replica Springtime In a Park" class="perf-image">
+        </div>
+        <div class="perf-content">
+          <p class="perf-scentFam">Scent Family: Floral</p>
+          <p class="perf-review">
+            <i class="fa-solid fa-star"></i> 4.4
+            <a href="https://www.maisonmargiela-fragrances.us/fragrances/replica/replica-springtime-in-a-park/MM012.html?srsltid=AfmBOorSWFL3sNffrTQU5qXivazOWKi8znhumFi8v3XppoRYdx5QczV7">
+              (336 reviews)
+            </a>
+          </p>
+        </div>
+        <div class="perf-button">
+            <button class="wishlist"><i class="fa-regular fa-heart"></i> Wishlist</button>
+            <button class="compare"><i class="fa-solid fa-right-left"></i></i> Compare</button>
+        </div>
+      </section>
+
+      <section class="perf" data-id="perfume4">
+        <div class="perf-content">
+          <p class="perf-title">Eau Triple Peruvian Heliotrope</p>
+          <p class="perf-brand">Universelle Buly Paris</p>
+          <p class="perf-price">€125</p>
+        </div>
+        <div class="perf-image-container">
+          <img src="/images/Eau-Triple-Heliotrope.jpg" alt="Eau Triple Peruvian Heliotrope" class="perf-image">
+        </div>
+        <div class="perf-content">
+          <p class="perf-scentFam">Scent Family: Floral</p>
+          <p class="perf-review">
+            <i class="fa-solid fa-star"></i> 4.6
+            <a href="https://buly1803.com/en-us/products/eau-triple-heliotrope-du-perou">
+              (7 reviews)
+            </a>
+          </p>
+        </div>
+        <div class="perf-button">
+            <button class="wishlist"><i class="fa-regular fa-heart"></i> Wishlist</button>
+            <button class="compare"><i class="fa-solid fa-right-left"></i></i> Compare</button>
+        </div>
+      </section>
+
+      <section class="perf" data-id="perfume5">
+        <div class="perf-content">
+          <p class="perf-title">Flora Gorgeous Orchid Eau de Parfum</p>
+          <p class="perf-brand">Gucci</p>
+          <p class="perf-price">$168</p>
+        </div>
+        <div class="perf-image-container">
+          <img src="/images/orchid-eau-de.jpg" alt="Flora Gorgeous Orchid Eau de Parfum" class="perf-image">
+        </div>
+        <div class="perf-content">
+          <p class="perf-scentFam">Scent Family: Floral</p>
+          <p class="perf-review">
+            <i class="fa-solid fa-star"></i> 4.7
+            <a href="https://www.sephora.com/product/gucci-flora-gorgeous-orchid-eau-de-parfum-P511924?country_switch=us&lang=en&skuId=2788149&om_mmc=ppc-GG_17791296865___2788172__9016855_c&gad_source=1&gclid=CjwKCAiA0rW6BhAcEiwAQH28IuZo2RxmUyVH3T3CACWcvQ9TEkIbCajYzh0Ypo7pDIaj89lkfCaKmhoCKfQQAvD_BwE&gclsrc=aw.ds">
+              (470 reviews)
+            </a>
+          </p>
+        </div>
+        <div class="perf-button">
+            <button class="wishlist"><i class="fa-regular fa-heart"></i> Wishlist</button>
+            <button class="compare"><i class="fa-solid fa-right-left"></i></i> Compare</button>
+        </div>
+      </section>
+  </div>
+  <button id="edit-button" class="edit-mode">Edit</button>
+
+  <section class="comparison-section">
+    <h2>Compare Perfumes</h2>
+    <div class="comparison-grid">
+      <div class="comparison-item" id="compare-1">
+        <p class="empty-text">Select a perfume to compare</p>
+      </div>
+      <div class="comparison-item" id="compare-2">
+        <p class="empty-text">Select a perfume to compare</p>
+      </div>
+      <div class="comparison-item" id="compare-3">
+        <p class="empty-text">Select a perfume to compare</p>
+      </div>
+    </div>
+  </section>
+  
+</main>
+
+    <footer>
+        <p>Created by Kailey Hwang for UMich SI 339 Final Project</p>
+    </footer>
+</body>
+</html>
